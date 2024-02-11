@@ -4,6 +4,12 @@
 
 在 APP-LCD-1.8 這片擴充卡上，有一個 RTCC 的晶片 MCP79411。本範例提供 MCP79411 的 Library 來展示如何使用 AVR128DA48 MCU 來完成 MCP79411 的操作
 
+![image](https://github.com/CalvinHoMicrochip/MCP79411-RTCC-with-APP-All-MCU-2023/assets/20454551/735472e3-2586-43af-b98e-1a0788fc22cd) 
+
+
+![image](https://github.com/CalvinHoMicrochip/MCP79411-RTCC-with-APP-All-MCU-2023/assets/20454551/58df3191-0f66-47de-a579-ff30c9d22ced)
+
+
 # MCC Melody Project Builder 中的設定以及 I/O 的設定 - 也請參考 APP-LCD-1.8 的線路圖
 
 
