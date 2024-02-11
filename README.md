@@ -1,0 +1,2 @@
+# MCP79411-RTCC-with-APP-All-MCU-2023
+使用 APP-All MCU 2023 MCU 搭配 APP-LCD-1.8 擴充板上的 MCP79411 來完成 RTCC 功能
