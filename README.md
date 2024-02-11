@@ -10,12 +10,12 @@
 ![image](https://github.com/CalvinHoMicrochip/MCP79411-RTCC-with-APP-All-MCU-2023/assets/20454551/58df3191-0f66-47de-a579-ff30c9d22ced)
 
 
-# MCC Melody Project Builder 中的設定以及 I/O 的設定 - 也請參考 APP-LCD-1.8 的線路圖
+**MCC Melody Project Builder 中的設定以及 I/O 的設定 - 也請參考 APP-LCD-1.8 的線路圖**
 
 
 ![image](https://github.com/CalvinHoMicrochip/MCP79411-RTCC-with-APP-All-MCU-2023/assets/20454551/357247db-513e-4de1-9e95-3b4c80ab8830)
 
-# MCC Content Manager 中用於此範例程式的各 Module 的版本 # 
+**MCC Content Manager 中用於此範例程式的各 Module 的版本**
 
 ![image](https://github.com/CalvinHoMicrochip/MCP79411-RTCC-with-APP-All-MCU-2023/assets/20454551/dcecfb63-9923-427a-97a3-984912d2dcee)
 
