@@ -3,10 +3,10 @@
 
 在 APP-LCD-1.8 這片擴充卡上，有一個 RTCC 的晶片 MCP79411。本範例提供 MCP79411 的 Library 來展示如何使用 AVR128DA48 MCU 來完成 MCP79411 的操作。APP-All MCU2023 留有一個與 Arduino UNO 相容的擴充介面，以及一個與 mikroE 相容的擴充介面，就是要用來擴充在 APP-All MCU2023 上原先為安置的外接周邊。I2C 的範例並不難建，但是針對像 MCP79411 這種 RTCC 的專用 IC 比較少。所以我們使用這一個範例，一方面展現 Melody 的 I2C Host Driver 的用法，並且也讓使用者多一個支援 MCP79411 操作的 Library。這個範例的完成方式如下 :
 -  使用 MCC Classic 有支援 MCP79411 的條件下，以 PIC18F 系列為 MCU 建立專案、產生 MCP79411 的操作程式庫
--  修改得到的 MCP79411 操作程式，主要是針對 I2C 的部分，讓程式可以被 MCC Melody 使用
+-  修改由 MCC Classic 得到的 MCP79411 操作程式，主要是針對 I2C 的部分，讓程式可以被 MCC Melody 使用。修改後的 Library 在 MCC Melody 具有很好的相容性
     -  MCP79411.c
     -  MCP79411.h
--  這個 Library 使用時是透過 time.h 裡面的標準 C Library 來操作設定、讀取籍資料結構分拆的工作，使用者可以看看這些 C Library
+-  這個 MCP79411 的 Library 使用時是透過 time.h 裡面的標準 C Library 來操作設定、讀取及資料結構分拆的工作，使用者可以看看這些 C Library
     -  localtime()
     -  mktime()
 
